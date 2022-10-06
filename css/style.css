@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    font-family: Lato;
+}
+.header,.main,.footer{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+.text{
+    font-weight: 400;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 48px;
+}
+.title_2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.primero{
+    color: #424551 ;
+    line-height: 26px;
+    margin-bottom: 4px;
+    margin-left: 32px;
+}
+.primero li:last-child{
+    margin-bottom: 40px;
+    
+}
+.primero li::before{
+    background: url("../img/check.jpg") 0 0 no-repeat;
+    content: "" ;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: -32px;
+
+}
+.title__3{
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #1E212C;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.title__4{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+    color: #1E212C;
+    margin-bottom: 16px;
+}
+.name{
+    font-size: 20px;
+    line-height: 30px;
+    color: #787A80;
+    margin-bottom: 32px;
+
+}
+.icons{
+    font-weight: 700;
+    line-height: 26px;
+    color: #424551;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+.icons li:last-child{
+    margin-bottom: 32px;
+}
+.one::before{
+    background: url("../img/Star.jpg") 0 0 no-repeat; 
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: -24px;
+    margin-right: 8px;
+
+}
+
+.two::before{ 
+    background: url("../img/Play\ \(1\).jpg") 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: -24px;
+    margin-right: 8px;
+
+}
+.three::before{
+    background: url("../img/Profile.jpg") 0 0 no-repeat;
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: -24px;
+    margin-right: 8px;  
+    
+}
+.footer__container{
+    line-height: 26px;
+    color: #424551 ;
+    margin-bottom: 50px;
+}
+.next{
+    font-weight: 900;
+    font-size: 46px;
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+   
+}
+.next:hover{
+    background-color: rosybrown;
+}
+.block{
+    background-color: rebeccapurple;
+    color: azure;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.block:hover .block_text{
+    visibility: visible;
+    opacity: 1;
+}
+.block_text{
+    opacity: 0;
+    visibility: hidden;
+}
+.linker{
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.linker p:first-child{
+    color: red;
+    text-transform: uppercase;
+}
+.blocker{
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.blocker p:nth-child(odd){
+    background-color: goldenrod;
+}
+
+
